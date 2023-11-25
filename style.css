@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Ruda:regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:regular,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Ruda, 'Courier New', Courier, monospace;
+    background-color: rgba(25, 27, 27, 1);
+}
+
+nav {
+    height: 111px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    padding-inline: 16px;
+    font-family: Ruda, 'Courier New', Courier, monospace;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 900px;
+    background-image: url(media/bg-image.jpeg);
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img h3 {
+    font-family: Quattrocento, 'Courier New', Courier, monospace;
+    font-size: 101px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    width: 902px;
+    height: 215px;
+    top: 240px;
+    background: transparent;
+}
+
+.bg-img p {
+    font-family: Ruda, 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 599px;
+    height: 325px;
+    margin: 100px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Quattrocento, 'Courier New', Courier, monospace;
+}
+
+.hr {
+    width: 250px;
+    height: 5px;
+    margin: auto;
+    border-top: 5px solid #B62828;
+    margin-bottom: 50px;
+}
+
+.about-us {
+    align-items: center;
+    width: 500px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    border-top: 2px solid #B62828;
+}
+
+.about-us-body {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 75px;
+}
+
+.about-us-body img {
+    width: 631px;
+    height: 506px;
+    top: 1368px;
+    left: 949px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.about-us-body p {
+    font-family: Ruda, 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    margin: 100px;
+    margin-top: -8px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu-para {
+    text-align: center;
+    color: white;
+    max-width: 1315px;
+    top: 2153px;
+    left: 212px;
+    margin: 100px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu-1 {
+    display: flex;
+    margin: 18px;
+    width: 1334px;
+    height: 638px;
+}
+
+.menu-1 div h3 {
+    color: #F2C94C;
+}
+
+.menu-1 div {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    color: #FFFFFF;
+    padding: 16px;
+
+}
+
+.gallery {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: rgba(25, 27, 27, 1);
+}
+
+.find-us {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.find-us-1 {
+    width: 450px;
+}
+
+.find-us-2 {
+    width: 450;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 0px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-mail-number {
+    margin-right: 50px;
+}
+
+  
+  
